@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle verilog-auto-module-init",
+        "command": "verilog-auto-module-init:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "verilog-auto-module-init",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "verilog-auto-module-init:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

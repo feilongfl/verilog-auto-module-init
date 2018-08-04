@@ -1,0 +1,16 @@
+{
+    "name": "verilog-auto-module-init",
+    "main": "./lib/verilog-auto-module-init",
+    "version": "1.0.0",
+    "description": "Auto init modules in verilog.",
+    "keywords": [],
+    "repository": "https://github.com/feilongfl/verilog-auto-module-init",
+    "activationCommands": {
+        "atom-workspace": "verilog-module:convert"
+    },
+    "license": "GPLV3",
+    "engines": {
+        "atom": ">=1.0.0 <2.0.0"
+    },
+    "dependencies": {}
+}
